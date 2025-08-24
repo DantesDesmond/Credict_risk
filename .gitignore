@@ -6,10 +6,6 @@ __pycache__/
 .venv/
 venv/
 
-# Data
-data/raw/*
-data/processed/*
-
 # Notebooks
 .ipynb_checkpoints/
 
