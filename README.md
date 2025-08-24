@@ -1,9 +1,13 @@
-# Credit Risk Prediction 🚀
+## 📂 Dataset
 
-Proyecto de Machine Learning para clasificar clientes en:
-- **Buenos (aprobados)**
-- **Malos (rechazados)**
-- **Revisión manual** (si caen en zona gris)
+El dataset contiene información de préstamos con la siguiente estructura:
 
-El modelo será evaluado con múltiples métricas (ROC, PR, KS, bad rate)  
-y se desplegará en **Streamlit** con consulta por `loan-id`.
+- LoanID → Identificador único del préstamo (usado para consulta en frontend).
+- Variables demográficas y financieras: Age, Income, LoanAmount, CreditScore, MonthsEmployed, NumCreditLines, InterestRate, LoanTerm, DTIRatio, Education, EmploymentType, MaritalStatus, HasMortgage, HasDependents, LoanPurpose, HasCoSigner.
+- Default → Target (1 = incumplimiento, 0 = pago correcto).
+
+### Split de datos
+Se separa en:
+- **Train (85%)**
+- **Test Holdout (15%)**  
+usando estratificación en `Default` para mantener la proporción de buenos/malos.

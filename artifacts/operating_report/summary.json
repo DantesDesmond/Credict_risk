@@ -1,0 +1,35 @@
+{
+  "auc_holdout": 0.7536805889803,
+  "base_bad_rate": 0.1161266741508498,
+  "by_decision": {
+    "Approved": {
+      "count": 30340,
+      "rate": 0.7921,
+      "bad_rate": 0.0716
+    },
+    "Review": {
+      "count": 4150,
+      "rate": 0.1083,
+      "bad_rate": 0.2094
+    },
+    "Rejected": {
+      "count": 3813,
+      "rate": 0.0995,
+      "bad_rate": 0.3693
+    }
+  },
+  "thresholds": {
+    "t_approve": 0.17231683726432093,
+    "t_reject": 0.25177571549217836,
+    "p_apr": 0.7999990785278561,
+    "p_rev": 0.0999981570557122,
+    "p_rej": 0.10000276441643169,
+    "bad_rate_approved": 0.07351628415929969,
+    "score": 0.0,
+    "note": "fallback_quantiles"
+  },
+  "artifacts": {
+    "lift_deciles_csv": "C:\\Users\\emedina\\OneDrive - Wind Telecom\\Documents\\Prediccion_impago\\artifacts\\operating_report\\lift_deciles.csv",
+    "score_hist_npz": "C:\\Users\\emedina\\OneDrive - Wind Telecom\\Documents\\Prediccion_impago\\artifacts\\operating_report\\score_hist.npz"
+  }
+}

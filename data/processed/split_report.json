@@ -1,0 +1,33 @@
+{
+  "input_path": "data\\raw\\loan_default.csv",
+  "rows_total": 255347,
+  "test_size": 0.15,
+  "target": "Default",
+  "id_col": "LoanID",
+  "train": {
+    "rows": 217044,
+    "target_dist": {
+      "counts": {
+        "0": 191839,
+        "1": 25205
+      },
+      "proportions": {
+        "0": 0.8839,
+        "1": 0.1161
+      }
+    }
+  },
+  "test_holdout": {
+    "rows": 38303,
+    "target_dist": {
+      "counts": {
+        "0": 33855,
+        "1": 4448
+      },
+      "proportions": {
+        "0": 0.8839,
+        "1": 0.1161
+      }
+    }
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "t_approve": 0.1125,
+  "t_reject": 0.201,
+  "p_apr": 0.6407331018458085,
+  "p_rev": 0.19954050596559017,
+  "p_rej": 0.1597263921886014,
+  "bad_rate_approved": 0.055944910765218805,
+  "bad_approved": 1373,
+  "bad_total": 4448,
+  "recall_bad_not_approved": 0.6913219424460432,
+  "captured_bad_in_reject": 0.4341276978417266,
+  "good_approval_rate": 0.6843597696056712,
+  "score": -1372997145.0017412,
+  "distance": 0.019452784377202825,
+  "note": "strict_ok",
+  "targets": {
+    "approve": 0.65,
+    "review": 0.2,
+    "reject": 0.15
+  },
+  "tolerance": 0.01,
+  "max_bad_rate_approved": 0.06
+}
